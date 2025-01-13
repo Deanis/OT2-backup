@@ -6,7 +6,7 @@ from stable_baselines3.common.env_checker import check_env
 from clearml import Task
 
 import os
-os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
+#os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 
 # Replace Pendulum-v1/YourName with your own project name (Folder/YourName, e.g. 2022-Y2B-RoboSuite/Michael)
 task = Task.init(project_name='Test/Dean', # NB: Replace YourName with your own name
